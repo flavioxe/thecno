@@ -1,0 +1,20 @@
+{
+  "id": "ipad",
+  "nome": "iPad",
+  "preco": 3848,
+  "descricao": "Mais do que você imagina. Por menos do que você espera.",
+  "estoque": 2,
+  "img": "./api/produtos/ipad/ipad-foto.jpg",
+  "reviews": [
+    {
+      "nome": "Andressa",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Rodrigo",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

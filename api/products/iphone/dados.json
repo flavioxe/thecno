@@ -1,0 +1,20 @@
+{
+  "id": "iphone",
+  "nome": "iPhone",
+  "preco": 1299,
+  "descricao": "Impressionante como sempre.",
+  "estoque": 3,
+  "img": "./api/produtos/iphone/iphone-foto.jpg",
+  "reviews": [
+    {
+      "nome": "Eduarda",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Sofia",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

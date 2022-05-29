@@ -1,0 +1,20 @@
+{
+  "id": "alexa",
+  "nome": "Alexa",
+  "preco": 218,
+  "descricao": "Peça para a Alexa tocar músicas, responder perguntas, ler as notícias, checar a previsão do tempo, criar alarmes, controlar dispositivos de casa inteligente compatíveis e muito mais.",
+  "estoque": 3,
+  "img": "./api/produtos/alexa/alexa-foto.jpg",
+  "reviews": [
+    {
+      "nome": "Rogério",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Nathália",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "applewatch",
+  "nome": "AppleWatch",
+  "preco": 5099,
+  "descricao": "Tela à vista.",
+  "estoque": 5,
+  "img": "./api/produtos/smartwatch/smartwatch-foto.jpg",
+  "reviews": [
+    {
+      "nome": "Beatriz",
+      "estrelas": 5,
+      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+    },
+    {
+      "nome": "Isabella",
+      "estrelas": 4,
+      "descricao": "Gostei, mas o preço poderia ser melhor."
+    }
+  ]
+}
