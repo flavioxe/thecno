@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <!-- Linkar o Vue -->
-  <script src="./vue.js"></script>
+    <!-- Linkar o Vue -->
+    <script src="./vue.js"></script>
 
-  <!-- Links CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <title>Techno</title>
-</head>
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
 
-<body>
-  
-  <div id="app">
-    {{ produtos }}
-    
-  </div>
+    <!-- Links CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Techno</title>
+  </head>
 
- 
-  <script src="./app.js"></script>
-</body>
+  <body>
+    <div id="app">
+      <section class="sec-produtos">
+        <div v-for="produto in produtos" :key="produto.id" class="produtos">
+          <img :src="produto.img" :alt="produto.nome" class="produto-img" />
+          <div class="produto-info">
+            <span class="produto-preco">{{ produto.preco | numeroPreco }}</span>
+            <h2 class="produto-titulo">{{ produto.nome }}</h2>
+          </div>
+          <!-- {{ produto }} -->
+        </div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
 </html>
